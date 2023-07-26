@@ -1,0 +1,30 @@
+body { padding: 0; margin: 0 }
+#unity-container { position: absolute }
+#unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
+#unity-container.unity-mobile { width: 100%; height: 100% }
+#unity-canvas { width: 100%; background: url("splashscreen.png") no-repeat center }
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-loading-bar { position: absolute; left: 50%; top: 80%; transform: translate(-50%, -50%) }
+#unity-logo { width: 154px; height: 130px; background: url('unity-logo-light.png') no-repeat center; display: none }
+#unity-progress-bar-empty { border-radius: 120px; width: 550px; height: 50px; margin-top: 10px; margin-left: 6.5px; background: url('tam-progress-empty.png') no-repeat center }
+#unity-progress-bar-full { border-radius: 120px; width: 0%; height: 50px; margin-top: 10px; margin-left: 6.5px; background: url('tam-progress-full.png') no-repeat center }
+#unity-footer { position: relative }
+#unity-webgl-logo { display: none; float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-build-title { display: none; float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+#unity-fullscreen-button { 
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    background: url('fullscreen-button.png') no-repeat center;
+}
+.video-player { 
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
