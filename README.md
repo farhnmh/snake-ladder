@@ -1,1 +1,1 @@
-# snake-ladder
+# tam-isometric
